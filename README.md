@@ -1,4 +1,4 @@
-#Simón dice
+# Simón dice
 
 Juego en el que se van iluminando una secuencia de botones que el 
 jugador tendrá que ir repitiendo, si se equivoca volverá a comenzar. 
