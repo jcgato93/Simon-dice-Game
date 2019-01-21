@@ -133,7 +133,7 @@ class Juego {
 
         if (this.nivel == (ULTIMO_NIVEL + 1)) {
            // Ganó
-           swal('Ganaste :)')
+           swal('Ganaste',':)','success')
             .then(()=>{
               location.reload();
             })
@@ -150,7 +150,7 @@ class Juego {
       }
     }else{
       // Perdió
-      swal('Perdiste :(')
+      swal('Perdiste',':(','error')
         .then(()=>{
           location.reload();
         })
